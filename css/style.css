@@ -48,50 +48,23 @@ header{
 
 /* main */
 main{
-    width: 80%;
+    width:80%;
     margin: 100px auto;
     position: relative;
     
 }
 
 
-.card-box.flex-container{
-    position: absolute;
-    top: 0;
-    left: 0;
-    
-    
-}
-
-main div{
+main.flex-container{
+    flex-flow:row wrap;
     gap:10px 10px;
+    align-items:flex-start;
+    
 }
 
-.card-box2.flex-container{
-    position: absolute;
-    top: 100px;
-    left: 0;
 
-}
-.card-box3.flex-container{
-    position: absolute;
-    top: 200px;
-    left: 0;
 
-}
-.card-box4.flex-container{
-    position: absolute;
-    top: 100px;
-    left: 0;
 
-}
-
-.card-box5.flex-container{
-    position: absolute;
-    top: 100px;
-    left: 0;
-
-}
 
 .name-card{
     position: absolute;
@@ -104,10 +77,14 @@ main div{
 
 }
 
+.card{
+    width: 250px;
+}
 
 
 .card img{
     width:100%;
+    height: 200px;
     
 }
     
@@ -129,7 +106,7 @@ footer.flex-container{
 }
 
 .user-input{
-    flex:0 1 30%;
+    
     gap:20px;
     text-align: center;
     margin-left: 10px;
@@ -146,14 +123,14 @@ footer.flex-container{
 }
 
 footer nav ul{
-    flex: 0 1 60%;
+    
     list-style: none;
     text-align: center;
     gap: 20px;
 
 }
 footer .exit-call{
-    flex: 0 1 10%;
+    
     background-color:#4a4a4a;
     color: red;
     height: 50px;
