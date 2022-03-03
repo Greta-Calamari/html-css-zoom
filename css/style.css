@@ -159,16 +159,21 @@ footer ul p{
 
 /* in piu  */
 
-.mic-off{
+.off{
     display: none;
     font-size: 30px;
 }
 
-.footer-icon:active .mic-off{
+.footer-icon:hover .off{
     display: block;
+    color: red;
+    
+
     
     
 }
+
+
 
 
 
