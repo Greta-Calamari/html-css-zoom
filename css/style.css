@@ -117,11 +117,11 @@ main div{
 
 footer{
     width: 100%;
-    
     background-color:#222222;
     position: fixed;
     bottom: 0;
     left: 0;
+    
 }
 
 footer.flex-container{
@@ -130,8 +130,10 @@ footer.flex-container{
 
 .user-input{
     flex:0 1 30%;
-    gap: 20px;
+    gap:20px;
     text-align: center;
+    margin-left: 10px;
+    
 
 }
 .footer-icon{
