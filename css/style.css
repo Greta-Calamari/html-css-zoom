@@ -91,12 +91,23 @@ main div{
 
 }
 
+.name-card{
+    position: absolute;
+    bottom:3px;
+    font-size: 15px;
+    background-color:black;
+    opacity: 40%;
+    
+    
 
+}
 
 
 
 .card img{
-    width:calc(100% / 1);
+    width:100%;
+    
+    
 
 }
 
