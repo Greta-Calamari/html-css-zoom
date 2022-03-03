@@ -57,8 +57,12 @@ main{
     position: absolute;
     top: 0;
     left: 0;
-    gap: 5px;
     
+    
+}
+
+main div{
+    gap: 5px;
 }
 
 .card-box2.flex-container{
